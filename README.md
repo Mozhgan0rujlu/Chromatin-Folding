@@ -32,15 +32,15 @@ The repository is organized around the main analytical steps of the project.
 
 ### Single Cell Hi-C Normalization
 - Band-wise normalization to correct genomic distance biases  
-- Implemented using **BandNorm**
+- Implemented using [**BandNorm**](https://github.com/keleslab/BandNorm)
 
 ### Single Cell Hi-C TAD Detection
 - Identification of topologically associating domains (TADs)  
-- Performed using **scKTLD**
+- Performed using [**scKTLD**](https://github.com/lhqxinghun/scKTLD)
 
 ### Single Cell Hi-C Compartment Analysis
 - Computation of A/B compartment scores  
-- Implemented using the **Higashi** framework
+- Implemented using the [**Higashi**](https://github.com/ma-compbio/Higashi) framework
 
 ### Simulations and Energy Landscape
 - Computation of chromatin energy states  
