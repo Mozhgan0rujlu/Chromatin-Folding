@@ -11,7 +11,7 @@ Using single-cell droplet Hi-C data from mouse (**mm10 genome**), we analyze chr
 ## Data
 
 - **Technology:** Droplet Hi-C  
-- **Organism:** Mouse (*Mus musculus*)  
+- **Organism:** Mouse (*mm10*)  
 - **Paper:** Droplet Hi-C enables scalable, single-cell profiling of chromatin architecture in heterogeneous tissues ([DOI: 10.1038/s41587-024-02447-1](https://www.nature.com/articles/s41587-024-02447-1))
 - **Data source:** GEO  
 - **GEO accession number:** [GSE253407](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE253407) 
