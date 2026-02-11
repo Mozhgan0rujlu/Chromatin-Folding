@@ -42,7 +42,7 @@ The repository is organized around the main analytical steps of the project.
 - Computation of A/B compartment scores  
 - Implemented using the [**Higashi**](https://github.com/ma-compbio/Higashi) framework
 
-### Sampling and Energy Landscape
+### Simulation and Energy Landscape
 - Computation of chromatin energy states  
 - Dimensionality reduction using MDS and diffusion maps  
 - Construction of AMI and MOC similarity matrices  
@@ -78,5 +78,5 @@ The following packages are required to run the analysis:
 
 Each analysis step can be run independently. A typical workflow follows:
 
-**Preprocessing → Normalization → TAD detection → Compartment analysis → Sampling**
+**Preprocessing → Normalization → TAD detection → Compartment analysis → Simulation**
 
