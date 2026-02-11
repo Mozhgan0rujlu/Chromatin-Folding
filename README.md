@@ -4,7 +4,7 @@
 
 This repository contains the code used in the project **“Chromatin Folding and Its Impact on Cell Fate”**, which investigates how 3D genome organization influences energy-state of non-neuron cells and cell differentiation from stem cells to mature cell types.
 
-Using single-cell droplet Hi-C data from mouse (**mm10 genome**), we analyze chromatin folding patterns and leverage them to create an **energy landscape** and predict cell differentiation trajectories. The repository includes scripts for preprocessing, normalization, TAD detection, compartment score calculation, and chromatin folding simulations.
+Using single-cell droplet Hi-C data from mouse (**mm10 genome**), we analyze chromatin folding patterns and leverage them to create an **energy landscape** and predict cell differentiation trajectories. The repository includes scripts for preprocessing, normalization, TADs detection, compartment score calculation, and sampling cell-fate decision-making using different simulated-annealing monte-carlo methods.
 
 ---
 
@@ -42,11 +42,11 @@ The repository is organized around the main analytical steps of the project.
 - Computation of A/B compartment scores  
 - Implemented using the [**Higashi**](https://github.com/ma-compbio/Higashi) framework
 
-### Simulations and Energy Landscape
+### Sampling and Energy Landscape
 - Computation of chromatin energy states  
 - Dimensionality reduction using MDS and diffusion maps  
 - Construction of AMI and MOC similarity matrices  
-- Simulation of cell fate decision-making using Monte Carlo methods  
+- Sampling of cell fate decision-making using Monte Carlo methods  
 
    
 
@@ -78,5 +78,5 @@ The following packages are required to run the analysis:
 
 Each analysis step can be run independently. A typical workflow follows:
 
-**Preprocessing → Normalization → TAD detection → Compartment analysis → Simulations**
+**Preprocessing → Normalization → TAD detection → Compartment analysis → Sampling**
 
